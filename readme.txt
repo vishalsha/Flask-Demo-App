@@ -1,6 +1,7 @@
 Execution Flow:
 
-
+Install python.
+Run the below code in command prompt
 
 1. py -m venv env
 2. env\Scripts\Activate
