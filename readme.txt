@@ -18,6 +18,19 @@ After this command we see (env) variable being prefixed in the command prompt.
 5. pip install pyspark
 etc..
 
+
+
+set FLASK_ENV=development flask run
+flask run
+git init
+echo env > .gitignore
+echo __pycache__ >> .gitignore
+git add .gitignore app.py requirements.txt
+git commit -m "Initialize git repository"
+ git config --global user.email "vishuf4@gmail.com"
+ git config --global user.name "vishalsha"
+git commit -m "Initialize git repository"
+
 *Create the required files & import the libraries in the project directory.
 
 *Create an app.py file, this is the main file which will contain all the requests.
