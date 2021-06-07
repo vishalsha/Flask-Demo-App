@@ -1,7 +1,7 @@
 Execution Flow:
 
 Install python.
-Run the below commands in command prompt
+Run the below commands in command prompt under the project directory.
 
 1. py -m venv env 
 This comamnd creates an environment, which should be specific to the project.
